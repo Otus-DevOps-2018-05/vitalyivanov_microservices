@@ -37,3 +37,9 @@ docker logs reddit -f
 docker exec -it reddit bash
 docker stop reddit && docker rm reddit
 ```
+
+## Homework 14 - Docker 3
+
+- Build docker images for post, comment and ui microservices
+- Create docker network to make the microservices work together
+- Create docker volume and attach it to the mongodb instance for persistent data storage
